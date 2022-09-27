@@ -1,0 +1,40 @@
+.section {
+    padding: 94px 0;
+}
+
+.main {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    display: flex;
+    gap: 30px;
+
+    .main__box {
+        height: 120px;
+        background-color: var(--btn-background);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+
+    .main__sub {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--titlle-color);
+        margin-bottom: 10px;
+    }
+
+    .main__article {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: var(--article-color);
+    }
+}

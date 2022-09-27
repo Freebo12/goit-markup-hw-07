@@ -18,35 +18,38 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!--!styles-->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="logo" href="./index.html">Web<span class="logo-half">Studio</span> </a>
+        <a class="header__logo" href="./index.html"
+          >Web<span class="header__logo--half">Studio</span>
+        </a>
         <nav class="nav">
-          <ul class="list-header">
-            <li class="item-header">
-              <a class="link-header" href="./index.html">Студія</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">Студія</a>
             </li>
-            <li class="item-header-main">
-              <a class="current" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item--main">
+              <a class="nav__link--current" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="item-header"><a class="link-header" href="">Контакти</a></li>
+            <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:info@devstudio.com">
-              <svg class="icon-header" width="16" height="12">
+        <!--!adress-->
+        <ul class="info">
+          <li class="info__item">
+            <a class="info__link" href="mailto:info@devstudio.com">
+              <svg class="info__icon" width="16" height="12">
                 <use href=".//images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tel:+380961111111"
-              ><svg class="icon-header" width="10" height="16">
+          <li class="info__item">
+            <a class="info__link" href="tel:+380961111111"
+              ><svg class="info__icon" width="10" height="16">
                 <use href=".//images/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -59,21 +62,29 @@
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Головна Навігація</h1>
-          <ul class="btn-list">
-            <li class="btn-item">
-              <button class="btn-button btn-first-button" type="button">Усі</button>
+          <ul class="items">
+            <li class="items__element">
+              <button class="items__button items__button--fist" type="button">Усі</button>
             </li>
-            <li class="btn-item"><button class="btn-button" type="button">Веб-сайти</button></li>
-            <li class="btn-item"><button class="btn-button" type="button">Додатки</button></li>
-            <li class="btn-item"><button class="btn-button" type="button">Дизайн</button></li>
-            <li class="btn-item"><button class="btn-button" type="button">Маркетинг</button></li>
+            <li class="items__element">
+              <button class="items__button" type="button">Веб-сайти</button>
+            </li>
+            <li class="items__element">
+              <button class="items__button" type="button">Додатки</button>
+            </li>
+            <li class="items_element">
+              <button class="items__button" type="button">Дизайн</button>
+            </li>
+            <li class="items__element">
+              <button class="items__button" type="button">Маркетинг</button>
+            </li>
           </ul>
 
-          <!--imgs-->
+          <!--!imgs-->
 
-          <ul class="img-section-list">
-            <li class="section-list">
-              <a class="card-link" href=""
+          <ul class="benefits">
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -83,7 +94,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -96,8 +107,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -107,7 +118,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -120,8 +131,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -131,7 +142,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -144,8 +155,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -155,7 +166,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -168,8 +179,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -179,7 +190,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -192,8 +203,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -203,7 +214,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -216,8 +227,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -227,7 +238,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -240,8 +251,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -251,7 +262,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -264,8 +275,8 @@
                 </div></a
               >
             </li>
-            <li class="section-list">
-              <a class="card-link" href=""
+            <li class="benefits__item">
+              <a class="benefits__link" href=""
                 ><div class="portfolio-thumb">
                   <img
                     class="section-img"
@@ -275,7 +286,7 @@
                     height="300"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -294,16 +305,16 @@
     </main>
     <!--footer-->
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="container-logo-footer">
-          <a class="logo-footer" href="./index.html"
-            >Web<span class="logo-half-footer">Studio</span>
+      <div class="container container--footer">
+        <div class="container__footer--logo">
+          <a class="footer__logo" href="./index.html"
+            >Web<span class="footer__logo--half">Studio</span>
           </a>
-          <address class="adress">
-            <ul class="adress-list">
-              <li class="adress-item">
+          <address class="">
+            <ul class="address">
+              <li class="address__item">
                 <a
-                  class="address-map"
+                  class="address__map"
                   href="https://goo.gl/maps/4gL3Jrbb5bLPBRH38"
                   target="_blank"
                   rel="noopener noreferer nofollow"
@@ -311,56 +322,54 @@
                 >
               </li>
 
-              <li class="adress-item">
-                <a class="address-link address-mail" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+              <li class="address__item">
+                <a class="address__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
-              <li class="adress-item">
-                <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="adress__item">
+                <a class="address__link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="container-social-footer">
-          <h3 class="social-tittle">Приєднуйтесь</h3>
-          <ul class="footer-list-social">
-            <li class="social-icon-footer">
-              <a class="link-social-footer" href=""
-                ><svg class="icon-footer" width="20" height="20">
+        <div class="aside">
+          <h3 class="aside__tittle">Приєднуйтесь</h3>
+          <ul class="aside__list">
+            <li class="aside__item">
+              <a class="aside__link" href=""
+                ><svg class="aside__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li class="social-icon-footer">
-              <a class="link-social-footer" href=""
-                ><svg class="icon-footer" width="20" height="20">
+            <li class="aside__item">
+              <a class="aside__link" href=""
+                ><svg class="aside__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="social-icon-footer">
-              <a class="link-social-footer" href="">
-                <svg class="icon-footer" width="20" height="20">
+            <li class="aside__item">
+              <a class="aside__link" href="">
+                <svg class="aside__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="social-icon-footer">
-              <a class="link-social-footer" href=""
-                ><svg class="icon-footer" width="20" height="20">
+            <li class="aside__item">
+              <a class="aside__link" href=""
+                ><svg class="aside__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <form class="footer-telegram">
-          <strong class="tittle-footer-social">Підпишіться на розсилку</strong>
-          <div class="form-container">
-            <label class="telegram-label">
-              <input class="telegram-form" type="text" name="subscrube" placeholder="E-mail" />
+        <form class="holder">
+          <strong class="holder__tittle">Підпишіться на розсилку</strong>
+          <div class="holder__container">
+            <label class="holder__label">
+              <input class="holder__input" type="text" name="subscrube" placeholder="E-mail" />
             </label>
 
-            <button class="social-btn" type="button">
-              <span class="subscribe-article">Підписатися</span>
-              <svg class="icon-footer" width="24" height="24">
+            <button class="holder__btn" type="button">
+              <span class="holder__article">Підписатися</span>
+              <svg class="holder__icon" width="24" height="24">
                 <use href="./images/icons.svg#telegram-icon"></use>
               </svg>
             </button>
